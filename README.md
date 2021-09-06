@@ -26,6 +26,7 @@
 - TypeScript
 - HTML
 - CSS
+- Bootstrap
 - Spring Initializr
 - Spring Boot
 - Spring Tool Suite 4
