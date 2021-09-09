@@ -15,6 +15,7 @@
 
 - Criar aplicação para o back end utilizando Spring Boot
 - Criar aplicação para o front end utilizando ReactJS
+- CI/CD com Netlify (https://dsvendas-brunorocha.netlify.app)
 
 
 <hr>
@@ -27,6 +28,7 @@
 - HTML
 - CSS
 - Bootstrap
+- Google Fonts
 - Apex Charts
 - Spring Initializr
 - Spring Boot
@@ -40,7 +42,8 @@
 - Yarn
 - NPM
 - Visual Studio Code
-
+- Netlify 
+- Netlify CI/CD (Continuous Integration and Continuous Delivery)
 
 <hr>
 
@@ -85,6 +88,8 @@
 - Apex Charts
 	- https://apexcharts.com/docs/react-charts/
 	- https://apexcharts.com/react-chart-demos/
+- Netlify	
+	- https://www.netlify.com
 
 	
 <hr>
