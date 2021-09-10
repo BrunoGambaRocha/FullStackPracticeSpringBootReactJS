@@ -1,5 +1,7 @@
 package br.com.brunoti.cursos.devsuperior.sds4.dsvendas.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -7,6 +9,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import br.com.brunoti.cursos.devsuperior.sds4.dsvendas.dto.SaleDTO;
+import br.com.brunoti.cursos.devsuperior.sds4.dsvendas.dto.SaleSuccessDTO;
+import br.com.brunoti.cursos.devsuperior.sds4.dsvendas.dto.SaleSumDTO;
 import br.com.brunoti.cursos.devsuperior.sds4.dsvendas.entities.Sale;
 import br.com.brunoti.cursos.devsuperior.sds4.dsvendas.repositories.SaleRepository;
 import br.com.brunoti.cursos.devsuperior.sds4.dsvendas.repositories.SellerRepository;
@@ -26,5 +30,14 @@ public class SaleService {
 		Page<Sale> result = repository.findAll(pageable);
 		return result.map(x -> new SaleDTO(x));
 	}
-
+	
+	@Transactional(readOnly = true)
+	public List<SaleSumDTO> amountGroupedBySeller(){
+		return repository.amountGroupedBySeller();
+	}
+	
+	@Transactional(readOnly = true)
+	public List<SaleSuccessDTO> successGroupedBySeller(){
+		return repository.successGroupedBySeller();
+	}
 }
