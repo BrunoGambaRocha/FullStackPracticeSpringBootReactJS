@@ -1,10 +1,10 @@
 # Full Stack Practice Spring Boot ReactJS
 
-Back-end
-<img src="https://github.com/BrunoGambaRocha/FullStackPracticeSpringBootReactJS/blob/master/backend/screenshot.png"/>
+- Back-end
+	<img src="https://github.com/BrunoGambaRocha/FullStackPracticeSpringBootReactJS/blob/master/backend/screenshot.png"/>
 
-Front-end
-<img src="https://github.com/BrunoGambaRocha/FullStackPracticeSpringBootReactJS/blob/master/frontend/screenshot.png"/>
+- Front-end
+	<img src="https://github.com/BrunoGambaRocha/FullStackPracticeSpringBootReactJS/blob/master/frontend/screenshot.png"/>
 
 - Instrutor: Nelio Alves
 - Repositório original: https://github.com/devsuperior/sds4.git
@@ -19,7 +19,7 @@ Front-end
 - Heroku: backend
 	- https://sds4-brunorocha.herokuapp.com/
 
-- Netlif: frontend
+- Netlify: frontend
 	- https://dsvendas-brunorocha.netlify.app/
 	
 
@@ -35,7 +35,7 @@ Front-end
 - Aula 2
 	- Implementar o back end
 		
--Aula 3
+- Aula 3
 	- Integrar back end e front end
 
 		
@@ -88,7 +88,7 @@ Front-end
 		- Consultas agrupadas para gráficos
 		- Implantação na nuvem
 
--Aula 3
+- Aula 3
 	- Integrar back end e front end
 	- Três pilares do React
 		- Componentes
