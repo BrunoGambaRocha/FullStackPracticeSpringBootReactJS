@@ -1,10 +1,8 @@
 # Full Stack Practice Spring Boot ReactJS
 
-- Back-end
-	<img src="https://github.com/BrunoGambaRocha/FullStackPracticeSpringBootReactJS/blob/master/backend/screenshot.png"/>
+![screenshot-backend](https://github.com/BrunoGambaRocha/FullStackPracticeSpringBootReactJS/blob/master/backend/screenshot.png)
 
-- Front-end
-	<img src="https://github.com/BrunoGambaRocha/FullStackPracticeSpringBootReactJS/blob/master/frontend/screenshot.png"/>
+![screenshot-frontend](https://github.com/BrunoGambaRocha/FullStackPracticeSpringBootReactJS/blob/master/frontend/screenshot.png)
 
 - Instrutor: Nelio Alves
 - Repositório original: https://github.com/devsuperior/sds4.git
