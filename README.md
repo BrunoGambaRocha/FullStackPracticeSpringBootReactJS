@@ -66,6 +66,9 @@
 - Padrão de Camadas (Conceito SOLID)
 - Modelo de domínio
 - Heroku
+- React Hooks
+- React Router DOM
+- Axios
 
 
 <hr>
